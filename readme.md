@@ -6,7 +6,7 @@ Instructions:
 
 1. Copy the link location of the script.
 2. SSH into your Ubuntu/Debian machine, and login as root. ( Ubuntu | sudo -i | Debian | su )
-   * Make sure the ca-certificates package is installed.
+   * Make sure the ca-certificates package is installed.  
 `apt-get update; apt-get install ca-certificates wget -y`
 3. Download the script by executing the following command. ( change it to your wanted version )
 `wget https://get.glennr.nl/unifi/install/unifi-5.10.25.sh`
